@@ -1,0 +1,169 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.my-nav-container {
+  background-color: white;
+  padding-bottom: 13rem;
+}
+
+.custom-border {
+  border-bottom: 1px solid #0A2640;
+}
+
+.common-container-theme {
+  background-color: white;
+}
+
+.common-white-text-color {
+  font-size: 20px;
+  color: #F1F1F1 !important;
+}
+
+.custom-paragraph-size {
+  font-size: 16px;
+  color: #0A2640 !important;
+}
+
+.custom-gray-text {
+  font-size: 16px;
+  color: #777777 !important;
+}
+
+.custom-header-size {
+  font-size: 64px;
+  color: #0A2640 !important;
+}
+
+.custom-numbers-size {
+  font-size: 96px;
+  color: #4FE9A4 !important;
+}
+
+.custom-numbers-sub-text {
+  font-size: 24px;
+  color: #0A2640 !important;
+}
+
+.custom-footer-text-size {
+  font-size: 16px;
+  color: #777777 !important;
+}
+
+.our-values-custom-header-size {
+  font-size: 28px;
+  color: #FFFFFF !important;
+}
+
+.common-header-black {
+  font-size: 48px;
+  color: #000000 !important;
+}
+
+.common-header-white {
+  font-size: 48px;
+  color: #FFFFFF !important;
+}
+
+.common-theme-color-small-style {
+  font-size: 20px;
+  color: #0A2640 !important;
+}
+
+.small-text-size {
+  font-size: 16px;
+  color: #0A2640 !important;
+}
+
+.custom-btn {
+  background: white;
+  padding: 8px 40px !important;
+  border: 2px solid #0A2640;
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0A2640;
+}
+
+.custom-btn-2 {
+  background: #65E4A3;
+  padding: 8px 40px !important;
+  border: 2px solid #0A2640;
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0A2640;
+}
+
+.images-section-seperator {
+  margin-bottom: 118px;
+}
+
+.about-us-seperator {
+  margin-bottom: 96px;
+}
+
+.leadership-section-seperator {
+  margin-bottom: 98.5px;
+}
+
+.our-values-section-seperator {
+  margin-bottom: 113px;
+}
+
+.footer-section-seperator {
+  margin-bottom: 84px;
+}
+
+.enterprise-section {
+  border-radius: 12px;
+}
+
+.custom-rounded-btn {
+  border: 2px solid #0A2640;
+  border-radius: 56px;
+  background: white;
+  padding: 16px 56px;
+  color: #0A2640;
+  font-weight: bold;
+}
+
+.custom-rounded-btn-2 {
+  border: 2px solid #0A2640;
+  border-radius: 56px;
+  background: #65E4A3;
+  padding: 16px 56px;
+  color: #0A2640;
+  font-weight: bold;
+}
+
+.custom-round-input {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 240px;
+}
+
+.custom-footer-styling {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.custom-black-text-size {
+  font-size: 20px;
+  color: black !important;
+}
+
+.hiring-btn {
+  display: inline-block;
+  font-size: 13px;
+  background-color: #65E4A3;
+  border-radius: 120px;
+  padding: 1px 14px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.theme-color {
+  background-color: #0A2640;
+}/*# sourceMappingURL=index.css.map */

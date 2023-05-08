@@ -1,0 +1,170 @@
+$common-white-color:white;
+$background-color: #65E4A3;
+$container-theme-color: white;
+
+*{
+    font-family: 'Manrope', sans-serif;
+}
+@mixin section-seperation($margin-b:118px){
+    margin-bottom: $margin-b
+}
+
+@mixin font-style($font-size:16px, $color:#0A2640)
+{
+    font-size: $font-size;
+    color: $color!important;
+}
+
+.my-nav-container{
+    background-color: white;
+    padding-bottom: 13rem;
+
+}
+
+.custom-border{
+    border-bottom: 1px solid #0A2640;
+
+}
+
+.common-container-theme{
+    background-color: $container-theme-color;
+}
+.common-white-text-color{
+    @include font-style(20px, #F1F1F1);
+}
+
+.custom-paragraph-size{
+    @include font-style(16px)
+}
+
+.custom-gray-text{
+    @include font-style(16px,#777777 )
+}
+.custom-header-size{
+    @include font-style(64px,  #0A2640)
+}
+
+.custom-numbers-size{
+    @include font-style(96px, #4FE9A4)
+}
+.custom-numbers-sub-text{
+    @include font-style(24px)
+}
+
+.custom-footer-text-size{
+    @include font-style(16px, #777777 )
+}
+
+.our-values-custom-header-size{
+    @include font-style(28px, #FFFFFF)
+}
+.common-header-black{
+    @include font-style(48px, #000000);
+}
+
+.common-header-white{
+    @include font-style(48px, #FFFFFF )
+}
+
+.common-theme-color-small-style{
+    @include font-style(20px)
+}
+.small-text-size{
+    @include font-style(16px)
+}
+
+.custom-btn{
+    background: $common-white-color;
+    padding: 8px 40px !important;
+    border: 2px solid #0A2640;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    color:#0A2640;
+}
+
+.custom-btn-2{
+        background: #65E4A3;
+        padding: 8px 40px !important;
+        border: 2px solid #0A2640;
+        border-radius: 24px;
+        font-weight: bold;
+        font-size: 16px;
+        color:#0A2640;
+}
+.images-section-seperator{
+    @include section-seperation(118px);
+}
+
+.about-us-seperator{
+    @include section-seperation(96px)
+}
+
+.leadership-section-seperator{
+    @include section-seperation(98.5px)
+}
+
+.our-values-section-seperator{
+    @include section-seperation(113px)
+}
+
+.footer-section-seperator{
+    @include section-seperation(84px)
+}
+
+.enterprise-section{
+    border-radius: 12px;
+
+}
+
+
+.custom-rounded-btn{
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    background: white;
+    padding: 16px 56px;
+    color:#0A2640;
+    font-weight: bold;
+}
+
+
+.custom-rounded-btn-2{
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    background: #65E4A3;
+    padding: 16px 56px;
+    color:#0A2640;
+    font-weight: bold;
+}
+
+.custom-round-input{
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 240px;
+}
+
+.custom-footer-styling{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.custom-black-text-size{
+    @include font-style(20px, black )
+}
+
+
+.hiring-btn{
+    display: inline-block;
+    font-size: 13px;
+    background-color: #65E4A3;
+    border-radius: 120px;
+    padding: 1px 14px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.theme-color{
+    background-color: #0A2640;
+}
